@@ -1,10 +1,15 @@
 .header-chart-inner {
-    background:  linear-gradient(180deg, #FFB877 23.96%, #FFC896 48.44%, #FFFFFF 100%);
+	background: linear-gradient(180deg, #FFB877 23.96%, #FFC896 48.44%, #FFFFFF 100%), url('../../assets/mountain.png');
+	background-size: cover, cover;
+	background-blend-mode: overlay;
+	background-position: center, center;
+	background-repeat: no-repeat no-repeat;
+	padding-left: 100px !important;
+	height: 350px;
 }
 
 .logo-title-chart{
 	display: flex;
-	margin-top: -10%;
 }
 
 .logo-title-chart h3 {
