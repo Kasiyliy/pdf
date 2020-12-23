@@ -11,7 +11,12 @@
 .header-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.header-years {
+    font-size: 50px !important;
+    font-weight: bold;
 }
 
 .container-title {
@@ -25,6 +30,7 @@
     font-size: 24px;
     line-height: 30px;
     margin-right: 40px;
+    margin-top: 30px;
 }
 
 .header-title-date {
@@ -35,7 +41,7 @@
     flex-direction: column;
     font-size: 70px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 20px 0;
 }
 
@@ -50,7 +56,8 @@
 .header-title-date p:last-child {
     margin-top: 5px;
     color: #152731;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
     margin-bottom: 0 !important;
 }
 
@@ -74,6 +81,8 @@
 }
 
 .vector {
+    background: url("../../assets/mountain.png") no-repeat bottom;
+    background-size: contain;
     position: absolute;
     bottom: 0;
     display: flex;
@@ -97,31 +106,27 @@
     writing-mode: vertical-rl;
 }
 
+.f-bold {
+    font-weight: bolder;
+}
+
+.vector-text img {
+    margin: 40px 40px;
+}
+
+.vector-text p {
+    font-size: 30px;
+    font-weight: bold;
+    -moz-transform: scaleX(-1) scaleY(-1); /* Gecko */
+    -o-transform: scaleX(-1) scaleY(-1); /* Opera */
+    -webkit-transform: scaleX(-1) scaleY(-1); /* Webkit */
+    transform: scaleX(-1) scaleY(-1); /* Standard */
+}
+
 .dot {
     border-radius: 100%;
     background-color: #fff;
     margin-right: 5px;
     margin-left: 5px;
 
-}
-
-@media screen and (min-width: 1920px) {
-    .header-title-text {
-        font-size: 48px;
-        line-height: 54px;
-    }
-
-    .header-title-date p {
-        font-size: 30px !important;
-    }
-
-    .h1-title {
-        font-size: 90px;
-        line-height: 96px;
-    }
-
-    .title-vector p {
-        font-size: 42px;
-        line-height: 46px;
-    }
 }
