@@ -75,7 +75,7 @@
 }
 
 .bar-1 {
-    height: 1500px;
+    height: 1600px;
     background: #99E7AB;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .bar-2 {
-    height: 1400px;
+    height: 1500px;
     background: #11D0CF;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .bar-3 {
-    height: 1300px;
+    height: 1400px;
     background: #152731;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .bar-4 {
-    height: 1200px;
+    height: 1300px;
     background: #2D2F32;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .bar-5 {
-    height: 1100px;
+    height: 1200px;
     background: #3A3C40;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .bar-6 {
-    height: 1000px;
+    height: 1100px;
     background: #515357;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .bar-7 {
-    height: 900px;
+    height: 1000px;
     background: #5E6167;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .bar-8 {
-    height: 800px;
+    height: 900px;
     background: #767A81;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .bar-9 {
-    height: 700px;
+    height: 800px;
     background: #9A9B9C;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .bar-item:last-child {
-    margin-bottom: 600px;
+    margin-bottom: 700px;
 }
 
 .bar-rest {
