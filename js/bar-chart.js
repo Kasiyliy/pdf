@@ -19,7 +19,7 @@ new Chart(document.getElementById("chart-bar"), {
         title: {
             display: true,
         },
-        responsive: true,
+        responsive: false,
         scales: {
             xAxes: [{
                 barThickness: 30,
@@ -48,7 +48,7 @@ new Chart(document.getElementById("chart-bar2"), {
         title: {
             display: true,
         },
-        responsive: true,
+        responsive: false,
         scales: {
             xAxes: [{
                 barThickness: 30,
@@ -77,7 +77,7 @@ new Chart(document.getElementById("chart-bar3"), {
         title: {
             display: true,
         },
-        responsive: true,
+        responsive: false,
         scales: {
             xAxes: [{
                 barThickness: 30,
@@ -105,7 +105,7 @@ new Chart(document.getElementById("chart-bar4"), {
         title: {
             display: true,
         },
-        responsive: true,
+        responsive: false,
         scales: {
             xAxes: [{
                 barThickness: 30,
