@@ -73,7 +73,7 @@
     margin: 0 0 5px;
 }
 .pieNum p:nth-child(1){
-    font-size: 14px;
+    font-size: 25px;
     color: #9A9B9C;
     margin: 0px 0;
     font-weight: 200;
@@ -94,7 +94,8 @@
 }
 
 .bar-chart-canvas{
-    width: 65%;
+    width: 95%;
+    height: 400px;
 }
 
 #myChart{
@@ -165,7 +166,6 @@
     margin-left: 6%;
 }
 .pr-title p{
-    width: ;
     font-size: 16px;
     font-weight: 400;
     color: #9A9B9C;
@@ -194,11 +194,10 @@
     justify-content: space-between;
     width: 50%;
     align-items: flex-end;
-    margin-bottom: 40px;
 }
 .progress-line p{
     margin: 0;
-    line-height: 1;
+    line-height: 24px;
     width:100%;
     font-size: 24px;
 }

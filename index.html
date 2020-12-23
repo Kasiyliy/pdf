@@ -195,116 +195,118 @@
 
     </div>
 </section>
-<section class="count">
-    <div class="header-count-inner">
+<section class="page-4" style="position:relative; height: 2123px">
+    <section class="count">
+        <div class="header-count-inner">
+            <div class="container" style="max-width: 90%">
+                <header class="header">
+                    <p>StroyMart.<span>kz</span></p>
+                </header>
+                <div class="header-block">
+                    <div class="header-bg">
+                        <img src="assets/header-bg.png">
+                    </div>
+                    <div class="logo-title-count">
+                        <h3>Количество</h3>
+                        <h4>строящихся
+                            объектов </h4>
+                    </div>
+                </div>
+            </div>
+            <div style="transform: rotate(-180deg);background: linear-gradient(180deg, #FFFFFF 0.34%, rgba(255, 255, 255, 0) 27.8%); padding: 20px 0;"></div>
+        </div>
         <div class="container">
-            <header class="header">
-                <p>StroyMart.<span>kz</span></p>
-            </header>
-            <div class="header-block">
-                <div class="header-bg">
-                    <img src="assets/header-bg.png">
+            <div class="count-labels">
+                <div class="count-label--item">
+                    <div class="color color-finished">
+                    </div>
+                    <span>- Завершенные</span>
                 </div>
-                <div class="logo-title-count">
-                    <h3>Количество</h3>
-                    <h4>строящихся
-                        объектов </h4>
+                <div class="count-label--item">
+                    <div class="color color-progress">
+                    </div>
+                    <span>- Строящиеся </span>
                 </div>
             </div>
         </div>
-        <div style="transform: rotate(-180deg);background: linear-gradient(180deg, #FFFFFF 0.34%, rgba(255, 255, 255, 0) 27.8%); padding: 20px 0;"></div>
-    </div>
-    <div class="container">
-        <div class="count-labels">
-            <div class="count-label--item">
-                <div class="color color-finished">
-                </div>
-                <span>- Завершенные</span>
-            </div>
-            <div class="count-label--item">
-                <div class="color color-progress">
-                </div>
-                <span>- Строящиеся </span>
-            </div>
-        </div>
-    </div>
 
+    </section>
+    <div class="container" style="max-width: 90%">
+        <div class="pieNums">
+            <div class="pieNum one">
+                <p>Всего</p>
+                <p>700</p>
+            </div>
+            <div class="pieNum two">
+                <p>Завершенные</p>
+                <p>215</p>
+            </div>
+            <div class="pieNum three">
+                <p>Строящиеся</p>
+                <p>485</p>
+            </div>
+        </div>
+        <div class="canvas-div">
+            <canvas id="myChart" style="margin-left: 405px" width="1750" height="850">
+            </canvas>
+
+            <div class="bar-chart-canvas">
+                <canvas id="bar-chart" width="1100" height="750"></canvas>
+            </div>
+        </div>
+        <div class="chart-numbers">
+            <div class="chart-number">
+                <p>2020</p>
+                <span>год</span>
+            </div>
+            <div class="bar-img">
+                <img src="assets/lines.svg">
+            </div>
+            <div class="chart-number">
+                <p>2020</p>
+                <span>год</span>
+            </div>
+            <div class="bar-img">
+                <img src="assets/lines.svg">
+            </div>
+            <div class="chart-number">
+                <p>2020</p>
+                <span>год</span>
+            </div>
+        </div>
+        <div class="objects-block">
+            <h1 class="h1-title count-title" style="color: #000; font-size: 60px; line-height: 60px">Строящиеся объекты
+                в разрезе регионов на 2020 год</h1>
+        </div>
+        <div class="progress-block">
+            <div class="progress-title">
+                <div class="pr-title">
+                    <p>Регион</p>
+                    <p>Строящиеся </p>
+                    <p>Завершенные</p>
+                    <p>Всего</p>
+                </div>
+                <div class="pr-title">
+                    <p>Регион</p>
+                    <p>Строящиеся </p>
+                    <p>Завершенные</p>
+                    <p>Всего</p>
+                </div>
+            </div>
+            <div class="progress-table1" id="pt1">
+            </div>
+        </div>
+    </div>
+    <div class="container" style="max-width: 90%; position: absolute; bottom: 0; margin-left: 5%">
+        <footer class="footer footer-count" style="padding: 0">
+            <p>Потребность строительного рынка на 2020-2021гг.</p>
+            <div class="line"></div>
+            <p>Разработано на основании автоматического анализа KENML смет системой GENRO (АО Институт цифровой техники
+                и
+                технологий)</p>
+        </footer>
+    </div>
 </section>
-<div class="container">
-    <div class="pieNums">
-        <div class="pieNum one">
-            <p>Всего</p>
-            <p>700</p>
-        </div>
-        <div class="pieNum two">
-            <p>Завершенные</p>
-            <p>215</p>
-        </div>
-        <div class="pieNum three">
-            <p>Строящиеся</p>
-            <p>485</p>
-        </div>
-    </div>
-    <div class="canvas-div">
-        <canvas id="myChart" style="width: 570px; height: 285px" width="1140" height="285">
-        </canvas>
-
-        <div class="bar-chart-canvas">
-            <canvas id="bar-chart"></canvas>
-        </div>
-    </div>
-    <div class="chart-numbers">
-        <div class="chart-number">
-            <p>2020</p>
-            <span>год</span>
-        </div>
-        <div class="bar-img">
-            <img src="assets/lines.svg">
-        </div>
-        <div class="chart-number">
-            <p>2020</p>
-            <span>год</span>
-        </div>
-        <div class="bar-img">
-            <img src="assets/lines.svg">
-        </div>
-        <div class="chart-number">
-            <p>2020</p>
-            <span>год</span>
-        </div>
-    </div>
-    <div class="objects-block">
-        <h1 class="h1-title count-title" style="color: #000; font-size: 60px; line-height: 60px">Строящиеся объекты
-            в разрезе регионов на 2020 год</h1>
-    </div>
-    <div class="progress-block">
-        <div class="progress-title">
-            <div class="pr-title">
-                <p>Регион</p>
-                <p>Строящиеся </p>
-                <p>Завершенные</p>
-                <p>Всего</p>
-            </div>
-            <div class="pr-title">
-                <p>Регион</p>
-                <p>Строящиеся </p>
-                <p>Завершенные</p>
-                <p>Всего</p>
-            </div>
-        </div>
-        <div class="progress-table1" id="pt1">
-        </div>
-    </div>
-</div>
-<div class="container">
-    <footer class="footer footer-count">
-        <p>Потребность строительного рынка на 2020-2021гг.</p>
-        <div class="line"></div>
-        <p>Разработано на основании автоматического анализа KENML смет системой GENRO (АО Институт цифровой техники и
-            технологий)</p>
-    </footer>
-</div>
-
 
 <section class="count">
     <div class="header-count-inner">
