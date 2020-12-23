@@ -109,13 +109,12 @@
 .chart-numbers{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .bar-img{
     width: 20%;
     height: 10px;
-    margin: 0 40px;
+    margin: 28px 40px;
 }
 
 .bar-img img{
