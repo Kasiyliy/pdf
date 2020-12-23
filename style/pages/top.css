@@ -1,11 +1,18 @@
 .top {
-    padding: 20px 0;
-    height: 2119px;
+    padding: 20px 0 0 0;
+    height: 2123px;
+    position: relative;
 }
 
 .header-bg img {
     height: 50%;
     width: 100%;
+}
+
+.bar-container {
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
 }
 
 .logo-title {
@@ -22,11 +29,19 @@
 }
 
 .header-block {
+    margin-top: 120px;
     position: relative;
 }
 
+
 .header-inner {
-    background: linear-gradient(180deg, #20D3CB 0%, #FFFFFF 100%);
+    background: linear-gradient(180deg, #20D3CB 0%, #FFFFFF 100%), url('../../assets/mountain.png');
+    background-size: cover, cover;
+    background-blend-mode: multiply;
+    background-position: center, center;
+    background-repeat: no-repeat no-repeat;
+    padding-left: 100px !important;
+    height: 250px;
 }
 
 .logo-title h3 {
