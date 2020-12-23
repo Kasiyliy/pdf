@@ -29,7 +29,7 @@
 }
 
 .header-block {
-    margin-top: 120px;
+    margin-top: 200px;
     position: relative;
 }
 
@@ -41,17 +41,17 @@
     background-position: center, center;
     background-repeat: no-repeat no-repeat;
     padding-left: 100px !important;
-    height: 250px;
+    height: 350px;
 }
 
-.logo-title h3 {
+.logo-title h2 {
     color: #152731;
-    font-size: 68px;
-    line-height: 72px;
+    font-size: 100px;
+    line-height: 110px;
     font-weight: 700;
 }
 
-.logo-title h3 > span {
+.logo-title h2 > span {
     color: #20D3CB;
 }
 
