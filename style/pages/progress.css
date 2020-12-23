@@ -16,13 +16,12 @@
     width: 44%;
     padding: 10px 0;
     border-bottom: 2px solid #eaeef1;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .pr-title2:nth-child(2){
     margin-left: 6%;
 }
 .pr-title2 p{
-    width: ;
     font-size: 16px;
     font-weight: 400;
     color: #9A9B9C;

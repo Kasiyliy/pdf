@@ -7,3 +7,8 @@
 @import url('pages/count.css');
 @import url('pages/progress.css');
 @import url('pages/charts.css');
+
+.width-90{
+    max-width: 90%;
+    margin: auto;
+}
