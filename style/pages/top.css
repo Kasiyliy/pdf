@@ -35,9 +35,9 @@
 
 
 .header-inner {
-    background: linear-gradient(180deg, #20D3CB 0%, #FFFFFF 100%), url('../../assets/mountain.png');
+    background: linear-gradient(180deg, #20D3CB 0%, #FFFFFF 100%, #FFFFFF 110%), url('../../assets/mountain.png');
     background-size: cover, cover;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     background-position: center, center;
     background-repeat: no-repeat no-repeat;
     padding-left: 100px !important;
@@ -60,9 +60,10 @@
 }
 
 .logo-text h4 {
+    margin-top: 20px;
     color: #152731;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 50px;
     font-weight: 700;
 }
 
