@@ -1,6 +1,6 @@
 .top {
     padding: 20px 0 0 0;
-    height: 2123px;
+    height: 2150px;
     position: relative;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .bar-1 {
-    height: 1600px;
+    height: 1550px;
     background: #99E7AB;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .bar-2 {
-    height: 1500px;
+    height: 1400px;
     background: #11D0CF;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .bar-3 {
-    height: 1400px;
+    height: 1250px;
     background: #152731;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .bar-4 {
-    height: 1300px;
+    height: 1100px;
     background: #2D2F32;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .bar-5 {
-    height: 1200px;
+    height: 950px;
     background: #3A3C40;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .bar-6 {
-    height: 1100px;
+    height: 800px;
     background: #515357;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .bar-7 {
-    height: 1000px;
+    height: 650px;
     background: #5E6167;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .bar-8 {
-    height: 900px;
+    height: 500px;
     background: #767A81;
 }
 
@@ -162,7 +162,7 @@
 }
 
 .bar-9 {
-    height: 800px;
+    height: 350px;
     background: #9A9B9C;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .bar-item:last-child {
-    margin-bottom: 700px;
+    margin-bottom: 200px;
 }
 
 .bar-rest {
@@ -233,5 +233,5 @@
 }
 
 .footer-top {
-    margin-top: 400px;
+    margin-top: 60px;
 }
