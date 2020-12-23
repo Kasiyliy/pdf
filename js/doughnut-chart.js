@@ -26,6 +26,9 @@ var config = {
         ]
     },
     options: {
+        animation: {
+            duration: 0
+        },
         responsive: true, 
         cutoutPercentage: 80
     }
