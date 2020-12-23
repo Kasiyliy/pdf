@@ -29,7 +29,7 @@ var config = {
         animation: {
             duration: 0
         },
-        responsive: true, 
+        responsive: false,
         cutoutPercentage: 80
     }
 };

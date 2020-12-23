@@ -1,7 +1,7 @@
 new Chart(document.getElementById("bar-chart"), {
     type: 'bar',
     data: {
-        labels: ["2021", "2022"],
+        labels: ["", ""],
         datasets: [
             {
                 label: "Population (millions)",
@@ -19,7 +19,7 @@ new Chart(document.getElementById("bar-chart"), {
         title: {
             display: true,
         },
-        responsive: true,
+        responsive: false,
         scales: {
             xAxes: [{
                 scaleLabel: {
@@ -43,7 +43,7 @@ new Chart(document.getElementById("bar-chart"), {
                 },
                 ticks: {
                     display: false
-                }
+                },
             }]
         }
     },
